@@ -1,0 +1,58 @@
+.bg-body{
+  background-color: #ddd;
+}
+
+.bg{
+  background-color: #00000040;
+}
+
+nav img{
+  height: 8rem;
+}
+
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+  nav{
+    text-align: center;
+  }
+
+  .redes-sociales {
+		text-align: center;
+	}
+
+  .busqueda {
+		display: none;
+	}
+}
+
+/*Clase para dispositivos grandes*/
+@media (min-width: 991px){
+  .redes-sociales{
+    text-align: right;
+  }
+}
+
+.img-social{
+  border-radius: 5px;
+}
+
+li a{
+  color: #464a4e;
+}
+
+li a:hover{
+  color: #695004;
+}
+
+.nav-link.active{
+  background-color: #563c16 !important;
+}
+
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
+
+.bg-busqueda{
+  background-color: #563c16 !important;
+}
