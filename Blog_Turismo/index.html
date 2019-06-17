@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" type="image/x-icon" href="img/Icon.png">
+  <title>Blog de Turismo</title>
+</head>
+<body class="body">
+  <div class="contenedor">
+    <header class="row">
+      <div class="col s3 m3 margin_div">
+        <div class="col push-s2"><img src="img/logo.png" style="position: absolute;"></div>
+      </div>
+      <div class="col s6 m9 push-s3 nav-content right-align margin_div">
+        <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">home</i><span class="hide-on-small-and-down">Inicio</span></a>
+        <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">location_on</i><span class="hide-on-small-and-down">Estuve En...</span></a>
+        <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">grade</i><span class="hide-on-small-and-down">Mejores Viajes</span></a>
+        <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">chat_bubble</i><span class="hide-on-small-and-down">Recomendaciones</span></a>
+      </div>
+      <div class="col s12 margin_div">
+        <div class="col s12 m12 l10 push-l2 slogan"><span class="white-text"><h5>Conociendo la Costa más Rica</h5></span></div>
+      </div>
+    </header>
+    <div class="row margin_div">
+      <div class="col m1 center-align hide-on-small-and-down">
+        <div><a class="waves-effect waves-light" href="#"><img src="img/fb.png" class="circle"></img></a></div>
+        <div><a class="waves-effect waves-light" href="#"><img src="img/ig.png" class="circle"></img></a></div>
+        <div><a class="waves-effect waves-light" href="#"><img src="img/tt.png" class="circle"></img></a></div>
+      </div>
+      <div class="col s12 m11">
+        <div class="row">
+          <div class="col m4">
+            <img class="responsive-img" width="100%" src="img/rio-celeste.jpg" alt="rio-celeste">
+            <img class="responsive-img" width="100%" src="img/puntarenas.jpg" alt="puntarenas">
+          </div>
+          <div class="col m4">
+            <img class="responsive-img" width="100%" src="img/tortuguero.jpg" alt="tortuguero">
+          </div>
+          <div class="col m4">
+            <img class="responsive-img" width="100%" src="img/puerto-viejo.jpg" alt="puerto-viejo">
+            <img class="responsive-img" width="100%" src="img/monteverde.jpg" alt="monteverde">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m9">
+        <div class="row card">
+          <div class="col m12">
+            <div class="col m4">
+              <img class="materialboxed responsive-img" width="100%" src="img/isla-coco.jpg" alt="isla-coco">
+            </div>
+            <h4>Parque Nacional Isla del Coco</h4>
+            <div>
+              <a class="btn btn-small waves-effect waves-light blue-grey" style="border-radius: 15px" href="#"><i class="material-icons right">event</i>17 de Junio de 2019</a>
+              <a class="btn btn-small waves-effect waves-light blue-grey" style="border-radius: 15px" href="#"><i class="material-icons right">location_on</i>Costa Rica</a>
+            </div>
+            <br>
+            <p>Parte de la provincia de Puntarenas, esta isla y parque nacional de 99 725 hectáreas en el Pacífico, es hogar de impresionantes escenarios naturales, con bosques húmedos tropicales, enormes cascadas, playas de aguas turquesas, cavernas acuáticas y acantilados que superan los 180 metros de altura.</p>
+            <br>
+            <p>Declarada Patrimonio de la Humanidad por la UNESCO, esta paradisiaca isla también es famosa por sus impresionantes fondos marinos, considerados entre los mejores del planeta para practicar buceo, dada la transparencia de las aguas y la facilidad de encuentro con grandes animales marinos, tales como ballenas, tiburones, manta rayas gigantes y delfines azules.</p>
+          </div>
+        </div>
+        <div class="row card teal lighten-3 white-text">
+          <form class="col s12">
+            <h5>Deja tu comentario</h5>
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">person</i>
+                <input id="icon_person" type="text" class="validate">
+                <label for="icon_person">Nombre</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">mail</i>
+                <input id="icon_mail" type="tel" class="validate">
+                <label for="icon_mail">Correo</label>
+              </div>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">comment</i>
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1"><label for="textarea1">Textarea</label></label>
+            </div>
+          </form>
+          <div class="row right-align">
+            <div class="col s12 m12">
+              <button class="btn waves-effect waves-light" type="submit" name="action" id="enviar">Enviar<i class="material-icons right">send</i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s10 m3 offset-s1">
+				<div class="row card">
+					<div class="col m12 center-align" style="padding-top: 5px">
+						<img class="circle" width="50%" src="img/hombre.png">
+						<h5>Perfil del Autor</h5>
+						<div class="divider"></div>
+						<p>
+							Scrollspy es un pulgin jQuery que hace seguimiento de ciertos elementos y en cual elemento esta centrada actualmente la pantalla del usuario. Nuestro demo principal de esto es nuestra tabla de contenidos en cada pagina de la documentación a lado derecho de la pagina. Al hacer clic en estos enlaces también se desplazará a la página de ese elemento.
+						</p>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
